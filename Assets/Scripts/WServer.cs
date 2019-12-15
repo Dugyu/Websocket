@@ -17,4 +17,9 @@ public class WServer : MonoBehaviour
         wssv.Start();
     }
 
+    private void OnApplicationQuit()
+    {
+        wssv.Stop();
+    }
+
 }

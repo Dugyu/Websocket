@@ -24,8 +24,8 @@ public class Chat: WebSocketBehavior
     {
         Sessions.Broadcast(e.Data + _suffix);
         var msg = e.Data == "BALUS"
-            ? "I've been balused already..."
-            : "I'm not available now.";
+            ? "I've been balused already YOOOOO..."
+            : "I'm not available now YOOOO.";
         Send(msg);
     }
 
