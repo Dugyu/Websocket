@@ -4,16 +4,9 @@ using System;
 using UnityEngine;
 using WebSocketSharp;
 
-public class WSTest : MonoBehaviour
+public class WSClient : MonoBehaviour
 {
     WebSocket ws;
-
-
-    // Start is called before the first frame update
-    void Awake()
-    {
-
-    }
 
     private void Start()
     {
